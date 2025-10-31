@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="skeleton">
+        <div class="up">
+            <h1 class="up-Title">My websound</h1>
+            <!-- <form action="/search">
+                <input class="search-box" type="text" placeholder="Search here">
+                <button class="search-botton" type="submit">Search</button>
+            </form> -->
+            <div class="up-right">
+                <a href="https://www.instagram.com/poramat760?fbclid=PAZXh0bgNhZW0CMTEAAaeHGEDzeMX2h3brqUWZ7GgSxtxa6M60nm1XHUnV9e0mKa3SmhVUpUOpQy-H2g_aem_v9_adjMT2FKoA_WOEewGkg" class="up-follow" target="_blank">Follow me</a>
+            <a href="https://www.instagram.com/poramat760?fbclid=PAZXh0bgNhZW0CMTEAAaeHGEDzeMX2h3brqUWZ7GgSxtxa6M60nm1XHUnV9e0mKa3SmhVUpUOpQy-H2g_aem_v9_adjMT2FKoA_WOEewGkg" class="up-logo"  target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/018/930/415/original/instagram-logo-instagram-icon-transparent-free-png.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="headered">
+            <h1>Here's it.</h1>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <img class="main-img" src="Img/bird.jpg" alt="Birds">
+                <p class="card-name">Birds</p>
+                <div class="controls"> 
+                    <img class="button-img" onclick="birdplay()" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000">
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" onchange="birdVolume(this.value)">
+                </div>
+                <audio id="birdSound" loop>
+                    <source src="Sond/birds-19624.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="card">
+                <img class="main-img" src="Img/fire.jpg" alt="Fire">
+                <p class="card-name">Camp Fire</p>
+                <div class="controls">
+                    <img class="button-img" onclick="fireplay()" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000">
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" onchange="fireVolume(this.value)">
+                </div>
+                <audio id="FireSound" loop>
+                    <source src="Sond/fire-sound-334130.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="card">
+                <img class="main-img" src="Img/night.webp" alt="night">
+                <p class="card-name">Night</p>
+                <div class="controls">
+                    <img class="button-img" onclick="nightplay()" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000">
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" onchange="nightVolume(this.value)">
+                </div>
+                <audio id="NightSound" loop>
+                    <source src="Sond/night-ambience-17064.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="card">
+                <img class="main-img" src="Img/rain.jpg" alt="rain-day">
+                <p class="card-name">Rain</p>
+                <div class="controls">
+                    <img class="button-img" onclick="rainplay()" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000">
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" onchange="rainVolume(this.value)">
+                </div>
+                <audio id="RainSound" loop>
+                    <source src="Sond/rain-sound-188158.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="card">
+                <img class="main-img" src="Img/Thunder.png" alt="Thunder">
+                <p class="card-name">Thunder</p>
+                <div class="controls">
+                    <img class="button-img" onclick="thunderplay()" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000">
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" onchange="thunderVolume(this.value)">
+                </div>
+                <audio id="ThunderSound" loop>
+                    <source src="Sond/ThunderSound.mp4" type="audio/mp4">
+                </audio>
+            </div>
+            
+        </div>
+
+        <footer>
+            <!-- <p><span>นี่คือWebsite แรกของเด็กชายตัวน้อยๆคนนี้555 มันเริ่มมาจากความอยากรู้อยากเห็นที่มีความสนใจในด้านนี้ พอเห็นคนนั้นคนนี้ทำก็เริ่มรู้สึกว่ามันเท่ดี มันเฟี้ยวมันcoolก็เลยเริ่มทำเองตั้งแต่ศูนย์ ผมเองก็พอมีความรู้เรื่องภาษาhtmlกับcss มาอยู่บ้างแต่ปัญหามันอยู่ที่ Javascript เนี่ยแหละ!!!! ผมเริ่มเขียนครั้งแรกมาจากภาษา Python ซึ่งมันเป็นภาษาที่ทำให้ผมรู้สึกว่ามัน Simple Simpleมาก แต่พอมาเห็นภาษาJavascriptเท่านั้นแหล่ะความรู้สึกอยากทำมันก็หายไปเลยยาววววว แต่ก็ไปเรียนจนได้อ่ะนะที่สำคัญเลยคือเพราะมีAIมาช่วยเนี่ยแหละถึงผ่านมันมาได้มันช่วยผ่อนแรงและหัวสมองอันน้อยนิดของผมไปได้เยอะเลยอ่ะนะ ก็นะในที่สุดผมก็ทำมันได้ถึงมันจะไม่ได้ดีมากหรือกากด้วยซ้ำไปแต่ผมก็ภูมิใจกับมันนะ^^ ขอบคุณที่ฟังมาจนถึงตอนนี้นะครับ</span>
+</p> -->
+        </footer>
+    </div>
+
+<!--     
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+    <div class="skeleton">
+        <div class="up">
+            <h1 class="up-Title">Chilling</h1>
+            <form action="/search">
+                <input class="search-box" type="text" placeholder="Search here">
+                <button class="search-botton" type="submit">Search</button>
+            </form>
+            <a href="https://www.instagram.com/poramat760?fbclid=PAZXh0bgNhZW0CMTEAAaeHGEDzeMX2h3brqUWZ7GgSxtxa6M60nm1XHUnV9e0mKa3SmhVUpUOpQy-H2g_aem_v9_adjMT2FKoA_WOEewGkg" class="up-follow" target="_blank">Follow me</a>
+            <a href="https://www.instagram.com/poramat760?fbclid=PAZXh0bgNhZW0CMTEAAaeHGEDzeMX2h3brqUWZ7GgSxtxa6M60nm1XHUnV9e0mKa3SmhVUpUOpQy-H2g_aem_v9_adjMT2FKoA_WOEewGkg" class="up-logo"  target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/018/930/415/original/instagram-logo-instagram-icon-transparent-free-png.png" alt=""></a>
+        </div>
+
+        <div class="headered">
+            <h1>Here's it.</h1>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <img class="main-img" src="https://a-z-animals.com/media/2022/12/iStock-1334541405-1024x1024.jpg" alt="Birds">
+                <p class="card-name">Birds</p>
+                <div class="controls"> 
+                    <img class="button-img" onclick="birdplay()" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000">
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" onchange="birdVolume(this.value)">
+                </div>
+                <audio id="birdSound" loop>
+                    <source src="Sond/birds-19624.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="card">
+                <img class="main-img" src="https://th.bing.com/th/id/R.a95157fc1cbb6d25424c34fc5bd92c07?rik=oNPVm8aEvWgiSQ&riu=http%3a%2f%2fwww.picturecorrect.com%2fwp-content%2fuploads%2f2010%2f08%2ffire-pit2.jpg&ehk=EaWAQ3ki0VDg7sp3qruQIuHFaXbT2tWMknRvBgrFcjE%3d&risl=&pid=ImgRaw&r=0" alt="Fire">
+                <p class="card-name">Camp Fire</p>
+                <div class="controls">
+                    <img class="button-img" onclick="fireplay()" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000">
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" onchange="fireVolume(this.value)">
+                </div>
+                <audio id="FireSound" loop>
+                    <source src="Sond/fire-sound-334130.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="card">
+                <img class="main-img" src="https://www.shutterstock.com/image-photo/beautiful-night-sky-milky-way-600nw-535318603.jpg" alt="night">
+                <p class="card-name">Night</p>
+                <div class="controls">
+                    <img class="button-img" onclick="nightplay()" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000">
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" onchange="nightVolume(this.value)">
+                </div>
+                <audio id="NightSound" loop>
+                    <source src="Sond/night-ambience-17064.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="card">
+                <img class="main-img" src="https://marshallslocuminn.com/wp-content/uploads/2015/09/creative-rain_01.jpg" alt="rain-day">
+                <p class="card-name">Rain</p>
+                <div class="controls">
+                    <img class="button-img" onclick="rainplay()" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000">
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" onchange="rainVolume(this.value)">
+                </div>
+                <audio id="RainSound" loop>
+                    <source src="Sond/rain-sound-188158.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="card">
+                <img class="main-img" src="https://play-lh.googleusercontent.com/OXD_IHyNHsIVFH10IDY7GhhyDUHaI65oY5GC7IvwrebFYhLFxGRBpHXnIkRlf18Jpg" alt="Thunder">
+                <p class="card-name">Thunder</p>
+                <div class="controls">
+                    <img class="button-img" onclick="thunderplay()" src="https://img.icons8.com/?size=100&id=9978&format=png&color=000000">
+                    <input type="range" min="0" max="1" step="0.01" value="0.5" onchange="thunderVolume(this.value)">
+                </div>
+                <audio id="ThunderSound" loop>
+                    <source src="Sond/ThunderSound.mp4" type="audio/mpeg">
+                </audio>
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+    const birdSound = document.getElementById("birdSound");
+    let isPlaying = false;
+
+    function birdplay() {
+        if (isPlaying) {
+            birdSound.pause();
+        } else {
+            birdSound.play();
+        }
+        isPlaying = !isPlaying;
+    }
+
+    function birdVolume(val) {
+        birdSound.volume = val;
+    }
+
+    const FireSound = document.getElementById("FireSound");
+    function fireplay() {
+        if (isPlaying) {
+            FireSound.pause();
+        } else {
+            FireSound.play();
+        }
+        isPlaying = !isPlaying;
+    }
+    function fireVolume(val) {
+        FireSound.volume = val;
+    }
+
+    const NightSound = document.getElementById("NightSound");
+    function nightplay() {
+        if (isPlaying) {
+            NightSound.pause();
+        } else {
+            NightSound.play();
+        }
+        isPlaying = !isPlaying;
+    }
+    function nightVolume(val) {
+        NightSound.volume = val;
+    }
+
+    const RainSound = document.getElementById("RainSound");
+    function rainplay() {
+        if (isPlaying) {
+            RainSound.pause();
+        } else {
+            RainSound.play();
+        }
+        isPlaying = !isPlaying;
+    }
+    function rainVolume(val) {
+        RainSound.volume = val;
+    }
+
+    const ThunderSound = document.getElementById("ThunderSound");
+    function thunderplay() {
+        if (isPlaying) {
+            ThunderSound.pause();
+        } else {
+            ThunderSound.play();
+        }
+        isPlaying = !isPlaying;
+    }
+    function thunderVolume(val) {
+        ThunderSound.volume = val;
+    }
+    </script>
+    
+
+</body>
+</html> -->
